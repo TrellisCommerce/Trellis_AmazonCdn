@@ -1,2 +1,2 @@
-app/etc/modules/Aoe_AmazonCdn.xml             app/etc/modules/Aoe_AmazonCdn.xml
-app/code/community/Aoe/AmazonCdn/             app/code/community/Aoe/AmazonCdn/
+app/etc/modules/Trellis_AmazonCdn.xml             app/etc/modules/Trellis_AmazonCdn.xml
+app/code/local/Trellis/AmazonCdn/                 app/code/local/Trellis/AmazonCdn/

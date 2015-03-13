@@ -1,17 +1,20 @@
 {
-    "name": "aoe/amazon-cdn",
+    "name": "trellis/amazon-cdn",
     "type": "magento-module",
     "license": "OSL-3.0",
-    "description": "Onepica_ImageCdn fork focused purely on S3 with some customizations and improvements.",
+    "description": "Aoe_AmazonCdn fork optimized for our own purposes.",
     "authors": [
         {
-            "name":"Dmytro Zavalkin",
-            "email":"dmytro.zavalkin@aoe.com"
+            "name":"Zach Loubier",
+            "email":"zach@growwithtrellis.com"
+        },
+        {
+            "name":"Dmitry Shkolnikov",
+            "email":"dmitry@growwithtrellis.com"
         }
     ],
     "require": {
         "magento-hackathon/magento-composer-installer": "~2.0.0",
-        "danslo/libraryrewrite": "~1.0.0",
         "firegento/psr0autoloader": "*@dev",
         "aws/aws-sdk-php": "~2.7.1"
     }

@@ -1,4 +1,4 @@
-Aoe_AmazonCdn
+Trellis_AmazonCdn
 =============
 
 Onepica_ImageCdn fork (only S3 support is left) with some customizations and improvements
@@ -10,7 +10,7 @@ Add something like the following to your composer.json:
 ```json
 {
     "require": {
-        "aoe/amazon-cdn": "~1.0.0"
+        "trellis/amazon-cdn": "~1.0.0"
     },
     "extra": {
         "magento-root-dir": "htdocs/"
@@ -18,11 +18,7 @@ Add something like the following to your composer.json:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/danslo/Aoe_AmazonCdn.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/danslo/LibraryRewrite.git"
+            "url": "https://github.com/danslo/Trellis_AmazonCdn.git"
         },
         {
             "type": "vcs",
@@ -46,4 +42,3 @@ You can do this by adding the following to ``<global />`` node of ``app/etc/loca
 Then issue the ``composer install`` command.
 
 ## TODO
-- Finish refactoring (merge Aoe_AmazonCdn_Model_Cache_Facade and Aoe_AmazonCdn_Model_Cdn_Adapter, better ideas?)
