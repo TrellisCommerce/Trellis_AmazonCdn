@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Trellis_AmazonCdn>
-            <version>1.0.0</version>
+            <version>1.0.3</version>
         </Trellis_AmazonCdn>
     </modules>
 
