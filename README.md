@@ -1,7 +1,7 @@
 Trellis_AmazonCdn
 =============
 
-Onepica_ImageCdn fork (only S3 support is left) with some customizations and improvements
+AoePeople_AmazonCdn fork with some improvements and customizations for our needs.
 
 ## Installing
 
@@ -33,7 +33,7 @@ Add something like the following to your composer.json:
 ```
 
 Load the composer autoloader into Magento if you haven't done so yet.
-You can do this by adding the following to ``<global />`` node of ``app/etc/local.xml``:
+You can do this by adding the following to the ``<global />`` node of ``app/etc/local.xml``:
 
 ```xml
 <composer_vendor_path><![CDATA[{{root_dir}}/vendor]]></composer_vendor_path>
