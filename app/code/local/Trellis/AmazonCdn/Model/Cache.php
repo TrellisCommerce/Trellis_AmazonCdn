@@ -63,10 +63,10 @@ class Trellis_AmazonCdn_Model_Cache extends Mage_Core_Model_Abstract
 
         if ($this->getId()) {
             return array(
-                'image_width'  => $this->getImageWidth(),
-                'image_height' => $this->getImageHeight(),
-                'image_type'   => $this->getImageType(),
-                'last_checked' => strtotime($this->getLastChecked())
+              'image_width'  => intval($this->getImageWidth()),
+              'image_height' => intval($this->getImageHeight()),
+              'image_type'   => intval($this->getImageType()),
+              'last_checked' => strtotime($this->getLastChecked())
             );
         } else {
             return false;
@@ -103,10 +103,10 @@ class Trellis_AmazonCdn_Model_Cache extends Mage_Core_Model_Abstract
             ->save();
 
         return array(
-            'image_width'  => $this->getImageWidth(),
-            'image_height' => $this->getImageHeight(),
-            'image_type'   => $this->getImageType(),
-            'last_checked' => strtotime($this->getLastChecked())
+          'image_width'  => intval($this->getImageWidth()),
+          'image_height' => intval($this->getImageHeight()),
+          'image_type'   => intval($this->getImageType()),
+          'last_checked' => strtotime($this->getLastChecked())
         );
     }
 
