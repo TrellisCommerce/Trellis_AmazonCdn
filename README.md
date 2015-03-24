@@ -1,7 +1,7 @@
 Trellis_AmazonCdn
 =============
 
-AoePeople_AmazonCdn fork with some improvements and customizations for our needs.
+AoePeople_AmazonCdn fork with improved image resizing and caching.
 
 ## Installing
 
@@ -10,10 +10,11 @@ Add something like the following to your composer.json:
 ```json
 {
     "require": {
-        "trellis/amazon-cdn": "~1.0.0"
+        "trellis/amazon-cdn": "~1.0.0",
+        "magento-hackathon/magento-composer-installer": "*",
     },
     "extra": {
-        "magento-root-dir": "htdocs/"
+        "magento-root-dir": "./"
     },
     "repositories": [
         {
