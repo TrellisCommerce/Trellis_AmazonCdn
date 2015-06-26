@@ -19,7 +19,7 @@ Add something like the following to your composer.json:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/growwithtrellis/Trellis_AmazonCdn.git"
+            "url": "https://github.com/Trellis-Inc/Trellis_AmazonCdn.git"
         },
         {
             "type": "vcs",
